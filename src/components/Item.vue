@@ -9,11 +9,14 @@
                 consectetur adipiscing elit.</p>
         </div>
         <button class="btn fill">BUY NOW</button>
+        <button @click="$emit('enlarge-text')">Enlarge text</button>
     </div>
 </template>
 
 <style scoped>
 .container{
     border: 1px solid red;
+    background-color: #1a1a1a;
+    color: #d5e1e1;
 }
 </style>

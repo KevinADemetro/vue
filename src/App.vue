@@ -7,6 +7,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <RouterLink to="/">Home</RouterLink>
     <RouterLink to="/items">Items List</RouterLink>
   </nav>
+  <div id="teste"></div>
   <RouterView />
 </template>
 
@@ -16,10 +17,11 @@ import { RouterLink, RouterView } from 'vue-router'
     top: 0;
     left: 0;
     width: 100%;
-    background-color: red;
+    background-color: #1a1a1a;
     padding: 10px;
     text-align: center;
   }
+
   nav a {
     float: left;
     margin-left: 2rem;
