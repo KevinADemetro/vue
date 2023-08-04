@@ -1,18 +1,18 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink } from 'vue-router'
 </script>
 
 <template>
+  <header><h1>Nome</h1></header>
   <nav>
     <RouterLink to="/">Home</RouterLink>
     <RouterLink to="/items">Items List</RouterLink>
   </nav>
-  <div id="teste"></div>
   <RouterView />
 </template>
 
 <style scoped>
-  nav{
+  header{
     position: fixed;
     top: 0;
     left: 0;

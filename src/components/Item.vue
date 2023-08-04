@@ -17,6 +17,9 @@
 .container{
     border: 1px solid red;
     background-color: #1a1a1a;
-    color: #d5e1e1;
+    color: #e1e1e1;
+}
+#app{
+    background-color: #1a1a1a;
 }
 </style>
