@@ -12,24 +12,20 @@ body{
   background-color: #1a1a1a;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
-}
-
-a,
-.green {
+a {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+  color: #e1e1e1;
+  transition: 0.2s;
 }
 
 @media (hover: hover) {
   a:hover {
-    color: hsla(160, 100%, 37%, 0.2);
-    box-shadow: ;
+    color: #00bd7e;
+    padding: 1vh;
+    border-radius: 1vh;
+    background-color: #292929;
+    box-shadow: 
+    0 0 5vh #fff;
   }
 }
 

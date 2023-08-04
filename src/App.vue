@@ -1,27 +1,17 @@
 <script setup>
-import { RouterLink } from 'vue-router'
+import Header from './components/Header.vue';
+import SideMenu from './components/SideMenu.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
-  <header><h1>Nome</h1></header>
-  <nav>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/items">Items List</RouterLink>
-  </nav>
+  <Header></Header>
+  <SideMenu></SideMenu>
   <RouterView />
+  <Footer></Footer>
 </template>
 
 <style scoped>
-  header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #1a1a1a;
-    padding: 10px;
-    text-align: center;
-  }
-
   nav a {
     float: left;
     margin-left: 2rem;

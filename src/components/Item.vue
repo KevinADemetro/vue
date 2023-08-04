@@ -1,6 +1,3 @@
-<script setup>
-    defineProps(['title'])
-</script>
 <template>
     <div class="container">
         <div>
@@ -12,6 +9,8 @@
         <button @click="$emit('enlarge-text')">Enlarge text</button>
     </div>
 </template>
-
+<script setup>
+    defineProps(['title'])
+</script>
 <style scoped>
 </style>
