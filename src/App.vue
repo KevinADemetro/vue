@@ -4,6 +4,7 @@
     <SideMenu />
     <RouterView />
     <Footer />
+    <font-awesome-icon icon="fa-solid" />
   </div>
 </template>
 <script setup>
