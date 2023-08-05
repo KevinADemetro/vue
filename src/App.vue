@@ -16,7 +16,7 @@
     width: 100%;
     margin-top: 9vh;
     display: grid;
-    grid-template-columns: 40vh auto;
+    grid-template-columns: auto 1fr;
     grid-template-rows: auto 2vh;
   }
 </style>

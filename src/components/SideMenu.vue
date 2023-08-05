@@ -1,34 +1,23 @@
 <template>
-    <nav>
+    <nav :class="['menu', collapsed ? 'collapsed' : 'expanded']">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/items">Items List</RouterLink>
     </nav>
 </template>
 <script setup>
     import { RouterLink } from 'vue-router'
+    import { ref } from 'vue'
+
 </script>
 <style scoped>
-    a {
-        text-decoration: none;
-        color: #e1e1e1;
-        transition: 0.2s;
-        width: fit-content;
-    }
-    @media (hover: hover) {
-        a:hover {
-        color: #00bd7e;
-        padding: 0.5rem;
-        border-radius: 0.5rem;
-        background-color: #292929;
-        box-shadow: 0 0 5vh #fff;
-    }
-    nav a {
-        float: left;
-        margin-left: 2rem;
-    }
     nav{
         display: flex;
         flex-direction: column;
+        width: 6vw;
+        transition: width 0.3s ease;
     }
-}
+
+    nav:hover{
+        width: 20vw;
+    }
 </style>

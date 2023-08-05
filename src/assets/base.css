@@ -50,12 +50,28 @@
   }
 }
 
+@media (hover: hover) {
+    a:hover {
+    color: #00bd7e;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #292929;
+    box-shadow: 0 0 5vh #fff;
+  }
+}
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #e1e1e1;
+  transition: 0.2s;
+  width: fit-content;
 }
 
 body {
