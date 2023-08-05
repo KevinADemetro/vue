@@ -12,10 +12,9 @@
         left: 0;
         background-color: #1a1a1a;
         width: 100%;
-        text-align: center;
+        height: 8vh;
     }
     h1{
-        float: left;
         padding: 1%;
     }
 </style>

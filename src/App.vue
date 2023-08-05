@@ -6,10 +6,14 @@ import Footer from './components/Footer.vue';
 
 <template>
   <Header></Header>
-  <SideMenu></SideMenu>
-  <RouterView />
-  <Footer></Footer>
+  <div id="grid">
+    <SideMenu></SideMenu>
+    <RouterView />
+    <Footer></Footer>
+  </div>
 </template>
-
 <style scoped>
+  #grid{
+    margin-top: 8vh;
+  }
 </style>

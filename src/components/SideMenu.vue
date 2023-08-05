@@ -19,13 +19,15 @@
         padding: 0.5rem;
         border-radius: 0.5rem;
         background-color: #292929;
-        box-shadow: 
-        0 0 5vh #fff;
+        box-shadow: 0 0 5vh #fff;
     }
-
     nav a {
         float: left;
         margin-left: 2rem;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
     }
 }
 </style>
