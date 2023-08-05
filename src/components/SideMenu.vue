@@ -12,6 +12,7 @@
         text-decoration: none;
         color: #e1e1e1;
         transition: 0.2s;
+        width: fit-content;
     }
     @media (hover: hover) {
         a:hover {
