@@ -12,8 +12,4 @@ import Footer from './components/Footer.vue';
 </template>
 
 <style scoped>
-  nav a {
-    float: left;
-    margin-left: 2rem;
-  }
 </style>

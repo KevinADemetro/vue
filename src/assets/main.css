@@ -12,23 +12,6 @@ body{
   background-color: #1a1a1a;
 }
 
-a {
-  text-decoration: none;
-  color: #e1e1e1;
-  transition: 0.2s;
-}
-
-@media (hover: hover) {
-  a:hover {
-    color: #00bd7e;
-    padding: 1vh;
-    border-radius: 1vh;
-    background-color: #292929;
-    box-shadow: 
-    0 0 5vh #fff;
-  }
-}
-
 @media (min-width: 1024px) {
   body {
     display: flex;
