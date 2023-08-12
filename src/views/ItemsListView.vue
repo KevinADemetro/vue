@@ -14,11 +14,10 @@
 <script setup>
     import Item from "../components/Item.vue";
     import { ref } from 'vue'
-    const items = ref([
-        { id: 1, title: 'My journey with Vue' },
-        { id: 2, title: 'Blogging with Vue' },
-        { id: 3, title: 'Why Vue is so fun' }
-    ]);
+    import ItemsService from "../services/ItemsService";
+
+    const items = ref(null);
+    ItemsService.getAll().then(result => items.value = result.data);
     const itemFontSize = ref(1);
 </script>
 <style scoped>
